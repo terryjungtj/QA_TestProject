@@ -23,7 +23,7 @@ The program to date only allows the user to read only. Thus, it is not possible 
 * Place the chrome driver in the C:\Driver directory as shown below.
 ![image text](https://i.imgur.com/Yu9QqVT.png)
 
-### 2.2 Nuget packages
+### 2.2. Nuget packages
 * Nunit (by Charlie Poole, Rob Prouse)
 * Nunit3TestAdapter (by Charlie Poole, Terje Sandstorm)
 * Selenium.Support (by Selenium Committers)
@@ -31,25 +31,25 @@ The program to date only allows the user to read only. Thus, it is not possible 
 * Selenium.WebDriver.ChromeDriver (by jsakamoto)
 * SeleniumExtras.WaitHelpers (by SeleniumExtras.WaitHelpers)
 
-### Setup
+### 2.3. Setup
 
 * Clone repository to local storage (directory shouldn't matter)
 * Open the "QA_TestProject.sln"
 
-### Executing program
+### 2.4. Executing program
 
 * Open the “QA_TestProject.sln” with Visual Studio (2019 or newer)
 * Using the “Test Explorer”, either right click to run the specific test case, or click the “green” triangle to run all the test cases 
 ![image text](https://i.imgur.com/OCGSOfy.png)
 
-### Help
-"TearDown" is enabled by default, meaning the browser will launch and close automatically for each test. As a result, the process may fly past very quickly depending on the internet speed and pc specs. In order to view the test result, it might be helpful to comment out lines 229-230 and 366-367.
+## 3. Help
+"TearDown" is enabled by default, meaning that the browser will launch and close automatically for each test. As a result, the process may fly past very quickly depending on the internet speed and pc specs. In order to get a better view of the test results, it might be helpful to comment out lines 229-230 and 366-367.
 ```
 [TearDown]
 public void TearDown() => driver.Quit();
 ```
 
-## Authors
+## 4. Authors
 
 Terry Jung
 terryjungtj@hotmail.com 
