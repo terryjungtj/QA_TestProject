@@ -1,4 +1,4 @@
-# Project Title
+# Quality/Automation Test Program
 
 This program is an automated test solution for personal training purposes. The "Gatling Computer Database" and "Java Scrip Alert" open-source web applications are used as a testing ground to perform various tests. The implemented tests covers the CRUD operations, edge cases, as well as handling java script alert windows.
 
