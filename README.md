@@ -19,7 +19,7 @@ The program to date only allows the user to read only. Thus, it is not possible 
 ### 2.1. Prequisites
 * Check the chrome version in the settings 
   ![image text](https://i.imgur.com/77iVqF7.png)
-* Go to url (ChromeDriver - WebDriver for Chrome - Downloads (chromium.org)) and download the chrome driver version that matches the browser version (v92).
+* Go to the following URL (https://chromedriver.chromium.org/downloads) and download the chrome driver version that matches the browser version (v92).
 * Place the chrome driver in the C:\Driver directory as shown below.
 ![image text](https://i.imgur.com/Yu9QqVT.png)
 
