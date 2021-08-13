@@ -51,5 +51,9 @@ public void TearDown() => driver.Quit();
 
 ## 4. Authors
 
+### 4.1. Name
 Terry Jung
 terryjungtj@hotmail.com 
+
+### 4.2 Total Time Taken
+Roughly 3 hours
